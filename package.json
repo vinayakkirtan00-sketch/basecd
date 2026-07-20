@@ -1,0 +1,59 @@
+{
+  "name": "@convertdock/basecd",
+  "version": "1.0.1",
+  "description": "BaseCD — a human-friendly, checksum-verified binary-to-text encoding by ConvertDock.",
+  "main": "src/basecd.js",
+  "types": "src/basecd.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "test:coverage": "node --test --experimental-test-coverage test/",
+    "lint": "node --check src/basecd.js",
+    "example": "node examples/basic-usage.js",
+    "benchmark": "node examples/benchmark.js"
+  },
+  "keywords": [
+    "encoding",
+    "decoding",
+    "base32",
+    "base64",
+    "base58",
+    "checksum",
+    "crc8",
+    "crc",
+    "basecd",
+    "convertdock",
+    "data-integrity",
+    "binary-to-text",
+    "url-safe",
+    "human-readable",
+    "typo-resistant",
+    "error-detection",
+    "id-generator",
+    "invite-code",
+    "coupon-code"
+  ],
+  "author": "ConvertDock (https://convertdock.online)",
+  "license": "MIT",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakkirtan00-sketch/basecd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vinayakkirtan00-sketch/basecd/issues"
+  },
+  "homepage": "https://github.com/vinayakkirtan00-sketch/basecd#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {}
+}
